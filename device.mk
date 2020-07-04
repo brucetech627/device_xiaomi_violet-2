@@ -174,6 +174,10 @@ PRODUCT_PACKAGES += \
     com.android.media.swcodec \
     libsfplugin_ccodec
 
+# Device-specific settings
+PRODUCT_PACKAGES += \
+    VioletParts
+
 # Display/Graphics
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.2-service \
@@ -423,6 +427,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-impl \
     android.hardware.vibrator@1.0-service
+
+#VioletParts init
+PRODUCT_PACKAGES += \
+    init.violetparts.sh \
+    init.violetparts.rc
 
 # Wifi
 PRODUCT_PACKAGES += \
