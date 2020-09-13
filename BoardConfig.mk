@@ -204,13 +204,6 @@ TARGET_USES_PRE_UPLINK_FEATURES_NETMGRD := true
 # Security
 VENDOR_SECURITY_PATCH := 2020-08-01
 
-# Sepolicy
-TARGET_SEPOLICY_DIR := msmsteppe
-include device/qcom/sepolicy/sepolicy.mk
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
-BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/public
-BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
-
 # WiFi
 BOARD_HOSTAPD_DRIVER := NL80211
 BOARD_HOSTAPD_PRIVATE_LIB := lib_driver_cmd_qcwcn
