@@ -391,7 +391,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/xiaomi \
-    hardware/google/pixel
+    hardware/google/pixel \
+    hardware/qcom-caf/sm8150
 
 # Telephony
 PRODUCT_PACKAGES += \
