@@ -12,6 +12,10 @@ $(call inherit-product, device/xiaomi/violet/device.mk)
 $(call inherit-product, vendor/aosp/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Gapps
+$(call inherit-product-if-exists, vendor/google/gms/config.mk)
+$(call inherit-product-if-exists, vendor/google/pixel/config.mk)
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_violet
 PRODUCT_DEVICE := violet
