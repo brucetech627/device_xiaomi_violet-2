@@ -15,6 +15,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # Gapps
 $(call inherit-product-if-exists, vendor/google/gms/config.mk)
 $(call inherit-product-if-exists, vendor/google/pixel/config.mk)
+WITH_GMS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_violet
