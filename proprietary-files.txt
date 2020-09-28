@@ -770,8 +770,8 @@ vendor/lib64/vendor.display.postproc@1.0.so
 vendor/bin/hw/vendor.display.color@1.0-service|8646c74c5b19e6d5086d7a4f83e0757610d18f3f
 # Qualcomm removed android.hidl.base@1.0 dependency on this one
 
-# Power-off charging daemon
--bin/charger:bin/chargeonlymode
+# Power-off charging daemon - from miui_CMI_20.9.28_171a6c0851_11.0.zip
+-bin/charger:bin/chargeonlymode|c745c3febb01b2b6a868a30ddb7bd8c1c343b3e7
 
 # Qualcomm MSM Interface
 etc/permissions/qti_libpermissions.xml
