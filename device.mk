@@ -178,6 +178,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     VioletParts
 
+# Device init scripts
+PRODUCT_PACKAGES += \
+    init.target.rc
+
 # Display/Graphics
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.2-service \
